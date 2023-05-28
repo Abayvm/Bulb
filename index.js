@@ -17,7 +17,3 @@ document.getElementById('offBtn').addEventListener('click', function tunOf(){
         document.getElementById('offBtn').classList.remove('buttonoff')
     }, 600)
 })
-
-
-
-
