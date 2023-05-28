@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left bottom, rgb(105, 103, 103), rgb(24, 24, 24), rgb(16, 16, 16));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.quotePlace{
+    background-color: rgba(255, 255, 255, 30%);
+    padding: 50px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 30%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%; */
+    text-align: center;
+    line-height: 3;
+    color: cadetblue;
+}
+
+h1{
+    font-size: 33px;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#bulb{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: 18px;
+    box-shadow: 7px 7px 7px  rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 30%);
+    border-color: rgba(255, 255, 255, 60%);
+    text-transform: uppercase;
+    width: 200px;
+    color: rgb(158, 252, 255);
+    margin-top: 15px;
+}
+.btn:hover{
+    box-shadow: 10px 7px 7px  rgba(0, 0, 0, .7);
+    transition: all 500ms;
+}
+
+.btnon{
+    background-color: yellow;
+    color: black;
+}
+.buttonoff{
+    background-color: black;
+    color: yellow;
+}
